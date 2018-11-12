@@ -170,7 +170,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -532,7 +532,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1117748290
 RectTransform:
   m_ObjectHideFlags: 0
@@ -741,6 +741,56 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 488160, guid: d9809c5e8418bb047bf2c8ba1d1a2cec,
     type: 2}
   m_PrefabInternal: {fileID: 1478533735}
+--- !u!1001 &1535962781
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 70446664a68a14fb99ca07d9833e00cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 70446664a68a14fb99ca07d9833e00cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 70446664a68a14fb99ca07d9833e00cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 70446664a68a14fb99ca07d9833e00cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 70446664a68a14fb99ca07d9833e00cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 70446664a68a14fb99ca07d9833e00cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 70446664a68a14fb99ca07d9833e00cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 70446664a68a14fb99ca07d9833e00cc, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 70446664a68a14fb99ca07d9833e00cc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 81bbfe6abdc2a43c5ad910dfb4363fdc, type: 2}
+    - target: {fileID: 2300000, guid: 70446664a68a14fb99ca07d9833e00cc, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 81bbfe6abdc2a43c5ad910dfb4363fdc, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 70446664a68a14fb99ca07d9833e00cc, type: 3}
+  m_IsPrefabAsset: 0
 --- !u!1 &1568687148
 GameObject:
   m_ObjectHideFlags: 0
@@ -872,6 +922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 347a8e288cb7e4eb9ba8176471c96e3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  skinedmesh: {fileID: 1251837738664582, guid: 8932c0336e2f54de28f903954d1dcbfd, type: 2}
 --- !u!4 &1594308573
 Transform:
   m_ObjectHideFlags: 0

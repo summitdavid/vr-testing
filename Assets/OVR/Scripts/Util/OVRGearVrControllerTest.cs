@@ -136,17 +136,18 @@ public class OVRGearVrControllerTest : MonoBehaviour
 	void Update()
 	{
 		OVRInput.Controller activeController = OVRInput.GetActiveController();
-
-		data.Length = 0;
+		
+        data.Length = 0;
+        /*
 		byte recenterCount = OVRInput.GetControllerRecenterCount();
 		data.AppendFormat("RecenterCount: {0}\n", recenterCount);
 
 		byte battery = OVRInput.GetControllerBatteryPercentRemaining();
 		data.AppendFormat("Battery: {0}\n", battery);
-
-		float framerate = OVRPlugin.GetAppFramerate();
-		data.AppendFormat("Framerate: {0:F2}\n", framerate);
-
+*/
+        float framerate = OVRPlugin.GetAppFramerate();
+		data.AppendFormat("fps: {0:F2}\n", framerate);
+        /*
 		string activeControllerName = activeController.ToString();
 		data.AppendFormat("Active: {0}\n", activeControllerName);
 
@@ -182,6 +183,7 @@ public class OVRGearVrControllerTest : MonoBehaviour
 			monitors[i].Update();
 			monitors[i].AppendToStringBuilder(ref data);
 		}
+		*/
 
 		if (uiText != null)
 		{
